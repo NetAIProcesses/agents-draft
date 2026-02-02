@@ -144,15 +144,15 @@ The system connects to a PostgreSQL database via MCP with the following tables:
 ## Example Queries
 
 ```
-# Meter Reading (Zählerablesung)
-"Zeig mir die letzten Zählerstände für Vertrag 1"
-"Ich möchte einen Zählerstand von 12500 kWh für Zähler 3 erfassen"
-"Validiere bitte den Verbrauch von 800 kWh für diesen Monat"
+# Meter Reading (Meter Reading)
+"Show me the latest meter readings for contract 1"
+"I want to record a meter reading of 12,500 kWh for meter 3"
+"Please validate the consumption of 800 kWh for this month"
 
-# Prepayment (Abschlagszahlung)
-"Was ist mein empfohlener monatlicher Abschlag?"
-"Welche Zahlungen sind noch offen?"
-"Zeig mir die Jahresübersicht für 2025"
+# Prepayment (Advance payment)
+"What is my recommended monthly advance payment?"
+"Which payments are still outstanding?"
+"Show me the annual overview for 2025"
 ```
 
 ## License

@@ -14,7 +14,6 @@ Or in interactive mode:
 
 import asyncio
 import sys
-from datetime import datetime
 
 from src.agents import handle_customer_request, orchestrator_agent
 from src.agents.orchestrator import OrchestratorDeps

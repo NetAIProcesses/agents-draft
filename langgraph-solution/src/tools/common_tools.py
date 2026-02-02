@@ -1,6 +1,5 @@
 """Common tools shared across agents."""
 
-from typing import Optional
 from langchain_core.tools import tool
 from src.mcp_client import mcp_client
 
