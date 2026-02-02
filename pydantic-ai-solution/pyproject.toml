@@ -1,0 +1,13 @@
+[project]
+name = "pydantic-ai-solution"
+version = "0.1.0"
+description = "Multi-agent system for German energy market processes using Pydantic AI"
+readme = "README.md"
+requires-python = ">=3.14.2"
+dependencies = [
+    "pydantic-ai>=1.51.0",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+energy-agents = "main:main"
